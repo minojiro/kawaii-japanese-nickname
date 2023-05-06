@@ -1,6 +1,21 @@
 # Kawaii Japanese Nickname
 
-List of kawaii nickname ideas in Japanese
+List of kawaii nickname ideas in Japanese!
+
+## Usage
+
+```
+npm install kawaii-japanese-nickname
+```
+
+```js
+const japaneseNicknames = require('kawaii-japanese-nickname')
+
+const nicknameIndex = Math.floor(Math.random() * japaneseNicknames)
+const [japanese, english] = japaneseNicknames[nicknameIndex]
+console.log(`🇯🇵 オッス！おら${japanese}！`)
+console.log(`🇬🇧 My name is ${english}!`)
+```
 
 ## Contribution
 
