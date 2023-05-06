@@ -5,7 +5,7 @@
   "main": "data.json",
   "types": "./data.d.ts",
   "scripts": {
-    "build": "node --require esbuild-register ./scripts/build.ts"
+    "generate": "node --require esbuild-register ./scripts/generate.ts"
   },
   "keywords": [
     "Japanese",
@@ -18,9 +18,8 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.0.0",
-    "csv": "^6.2.12",
-    "csv-parse": "^5.3.10",
     "esbuild": "^0.17.18",
-    "esbuild-register": "^3.4.2"
+    "esbuild-register": "^3.4.2",
+    "jaconv": "^1.0.4"
   }
 }
