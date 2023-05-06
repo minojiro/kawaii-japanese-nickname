@@ -1,0 +1,37 @@
+name: Publish To npm
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  publish-to-npm:
+    runs-on: ubuntu-latest
+    environment:
+      name: PROD
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7.29.3
+      - uses: actions/setup-node@v3
+        with:
+          always-auth : true
+          cache: 'pnpm'
+          node-version: 18
+          registry-url: 'https://registry.npmjs.org'
+          scope: 'kawaii-japanese-nickname'
+        env :
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Git config
+        run: |
+          git config user.name "$(git --no-pager log --format=format:'%an' -n 1)"
+          git config user.email "$(git --no-pager log --format=format:'%ae' -n 1)"
+      - run : pnpm i
+      - run : npm version patch
+      - run : npx can-npm-publish --verbose
+      - run : npm publish --access=public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
