@@ -3,23 +3,15 @@
   "version": "1.0.4",
   "description": "List of kawaii nickname ideas in Japanese",
   "main": "data.json",
-  "types": "./data.d.ts",
-  "scripts": {
-    "prepare": "node --require esbuild-register ./scripts/generate.ts"
-  },
+  "types": "data.d.ts",
   "keywords": [
     "Japanese",
     "nickname"
   ],
   "author": "minojiro (https://github.com/minojiro/)",
   "files": [
-    "data.json"
+    "data.json",
+    "data.d.ts"
   ],
-  "license": "MIT",
-  "devDependencies": {
-    "@types/node": "^20.0.0",
-    "esbuild": "^0.17.18",
-    "esbuild-register": "^3.4.2",
-    "jaconv": "^1.0.4"
-  }
+  "license": "MIT"
 }
