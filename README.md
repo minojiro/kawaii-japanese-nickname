@@ -13,8 +13,8 @@ const japaneseNicknames = require('kawaii-japanese-nickname')
 
 const nicknameIndex = Math.floor(Math.random() * japaneseNicknames)
 const [japanese, english] = japaneseNicknames[nicknameIndex]
-console.log(`🇯🇵 オッス！おら${japanese}！`)
-console.log(`🇬🇧 My name is ${english}!`)
+console.log(`🇯🇵 オッス！おら、${japanese}！`)  // 🇯🇵 オッス！おら、おでん！
+console.log(`🇬🇧 My name is ${english}!`)  // 🇬🇧 My name is oden!
 ```
 
 ## Contribution
@@ -25,6 +25,8 @@ You can contribute by submitting pull requests from your fork to the upstream re
 ### 🇯🇵 日本語が得意な方へ！
 
 かわいい日本語のニックネームのアイデアを、プルリクエストにて大大大募集しています！
+
+リポジトリは[こちら](https://github.com/minojiro/kawaii-japanese-nickname)
 
 1. `nicknames.txt` に、ひらがなでニックネームを追記してください。
 1. `add nickname: みかん` などの、追加したニックネームがわかるようなメッセージでコミットし、プルリクエストをお送りください。
