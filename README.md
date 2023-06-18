@@ -29,7 +29,7 @@ You can contribute by submitting pull requests from your fork to the upstream re
 リポジトリは[こちら](https://github.com/minojiro/kawaii-japanese-nickname)
 
 1. `nicknames.txt` に、ひらがなでニックネームを追記してください。
-1. `add nickname: みかん` などの、追加したニックネームがわかるようなメッセージでコミットし、プルリクエストをお送りください。
+1. `feat: added nicknames ニックネーム1, ニックネーム2…` という形式で、追加したニックネームがわかるようなメッセージでコミットし、プルリクエストをお送りください。
 
 🔰 はじめてのOSSコントリビュートにもぴったりです！プルリクエストの作り方などのGitの基本的な操作方法に関しては、 [こちらの記事](https://techtechmedia.com/how-to-fork-github/) がわかりやすくておすすめです！
 
