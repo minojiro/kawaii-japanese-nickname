@@ -1,6 +1,6 @@
 {
   "name": "kawaii-japanese-nickname",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "List of kawaii nickname ideas in Japanese",
   "main": "data.json",
   "types": "data.d.ts",
