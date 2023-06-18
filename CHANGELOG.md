@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/minojiro/kawaii-japanese-nickname/compare/v1.1.1...v1.2.0) (2023-06-18)
+
+
+### Features
+
+* add nicknames うなぎねこ はんぺん もっぱん ([ff1ce69](https://github.com/minojiro/kawaii-japanese-nickname/commit/ff1ce69ad6e5e8d5e9a8fd171cf299211b852e65))
+
 ## 1.1.1 (2023-06-18)
 
 
