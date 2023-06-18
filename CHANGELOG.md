@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/minojiro/kawaii-japanese-nickname/compare/v1.2.0...v1.3.0) (2023-06-18)
+
+
+### Features
+
+* add nicknames するめ, とさか, のんき ([249a34c](https://github.com/minojiro/kawaii-japanese-nickname/commit/249a34c9341324098746418a649145562abb60f7))
+
 ## [1.2.0](https://github.com/minojiro/kawaii-japanese-nickname/compare/v1.1.1...v1.2.0) (2023-06-18)
 
 
