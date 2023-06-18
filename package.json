@@ -9,6 +9,10 @@
     "nickname"
   ],
   "author": "minojiro (https://github.com/minojiro/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minojiro/kawaii-japanese-nickname.git"
+  },
   "files": [
     "data.json",
     "data.d.ts"
